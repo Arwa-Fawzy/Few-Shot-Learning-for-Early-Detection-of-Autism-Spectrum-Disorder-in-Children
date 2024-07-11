@@ -21,6 +21,7 @@ We utilized few-shot learning (FSL) which is a machine-learning technique that t
 
 - Few-shot learning for handling limited labeled data.
 - Pre-trained backbone model for feature extraction.
+- Minimizing processing Time
 - High accuracy in autism detection from children's images.
 
 ## Installation
