@@ -1,0 +1,9 @@
+torch==2.0.0
+torchvision==0.15.1
+matplotlib==3.7.1
+seaborn==0.11.2
+numpy==1.21.2
+scikit-learn==1.1.1
+tqdm==4.64.1
+Pillow==9.0.1
+easyfsl==0.1.3
