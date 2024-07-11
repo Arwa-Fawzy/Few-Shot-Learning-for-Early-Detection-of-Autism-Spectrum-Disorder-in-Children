@@ -27,9 +27,9 @@ We utilized few-shot learning (FSL) which is a machine-learning technique that t
 ## Installation
 
 ### Install Dependencies
-
+```bash
 pip install -r requirements.txt
-
+```
 ### Clone the Repository
 
 ```bash
