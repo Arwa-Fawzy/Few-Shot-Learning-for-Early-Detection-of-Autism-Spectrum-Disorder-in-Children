@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ```
 ## Dataset
 
-In our FSL model, a labeled 'support set' $$\mathcal{S} = \{(x_i, y_i)\}_{i=0}^{N \times K}$$ comprises approximately 3000 images from a public kaggle dataset [Autistic Children Facial Data Set](https://www.kaggle.com/datasets/imrankhan77/autistic-children-facial-data-set). , simulating a catalog or primary training data, alongside a 'query set' ($\mathcal{Q}=\{(x_i, y_i)\}_{i=0}^{M}$) resembling testing data, and 'episodes or tasks' that are equivalent to epochs. Each image in the query set requires classification using labels provided in the support set. Figure Shown illustrates a '2-way, 4-shots' with '10 query' instances of the classification task, where '2-way' denotes two distinct classes (autistic and non-autistic) and '4-shots' signifies four instances per class for each episodic training.
+In our FSL model, a labeled 'support set' S = {(x_i, y_i)} for i = 0 to N * K comprises approximately 3000 images from a public kaggle dataset [Autistic Children Facial Data Set](https://www.kaggle.com/datasets/imrankhan77/autistic-children-facial-data-set). , simulating a catalog or primary training data, alongside a 'query set' ($\mathcal{Q}=\{(x_i, y_i)\}_{i=0}^{M}$) resembling testing data, and 'episodes or tasks' that are equivalent to epochs. Each image in the query set requires classification using labels provided in the support set. Figure Shown illustrates a '2-way, 4-shots' with '10 query' instances of the classification task, where '2-way' denotes two distinct classes (autistic and non-autistic) and '4-shots' signifies four instances per class for each episodic training.
 
 <img src="https://github.com/user-attachments/assets/0dd29aad-ad26-4f49-81d0-3c5fe75c053c" width="500">
 <br>
