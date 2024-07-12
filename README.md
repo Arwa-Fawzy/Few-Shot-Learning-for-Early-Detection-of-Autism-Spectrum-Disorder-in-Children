@@ -14,7 +14,7 @@ This repo contains the computational trials of the research paper titled: Few-Sh
 
 ## Introduction
 
-Autism Spectrum Disorder (ASD) is a developmental condition affecting communication, behavior, and social interactions, characterized by a range of symptoms and severity levels where early detection and intervention are crucial for effective support. Acquiring labeled data is challenging due to high costs, specialized knowledge, or sample scarcity, especially in 'rare conditions' like `childhood ASD`. 
+Autism Spectrum Disorder (ASD) is a developmental condition affecting communication, behavior, and social interactions, characterized by a range of symptoms and severity levels where early detection and intervention are crucial for effective support. Acquiring labeled data is challenging due to high costs, specialized knowledge, or sample scarcity, especially in `rare conditions` like `childhood ASD`. 
 We utilized few-shot learning (FSL) which is a machine-learning technique that trains the models by meta-learning with a minimal amount of labeled data, often just a few examples for each class.
 
 ## Features
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ```
 ## Dataset
 
-In our FSL model, a labeled 'support set' S = {(x_i, y_i)}_i=0^(N*K) comprises approximately 3000 images from a public kaggle dataset [Autistic Children Facial Data Set](https://www.kaggle.com/datasets/imrankhan77/autistic-children-facial-data-set). , simulating a catalog or primary training data, alongside a 'query set' ($\mathcal{Q}=\{(x_i, y_i)\}_{i=0}^{M}$) resembling testing data, and 'episodes or tasks' that are equivalent to epochs. Each image in the query set requires classification using labels provided in the support set. Figure Shown illustrates a '2-way, 4-shots' with '10 query' instances of the classification task, where '2-way' denotes two distinct classes (autistic and non-autistic) and '4-shots' signifies four instances per class for each episodic training.
+In our FSL model, a labeled `support set` S = {(x_i, y_i)}_i=0^(N*K) comprises approximately 3000 images from a public kaggle dataset [Autistic Children Facial Data Set](https://www.kaggle.com/datasets/imrankhan77/autistic-children-facial-data-set). , simulating a catalog or primary training data, alongside a `query set` ($\mathcal{Q}=\{(x_i, y_i)\}_{i=0}^{M}$) resembling testing data, and 'episodes or tasks' that are equivalent to epochs. Each image in the query set requires classification using labels provided in the support set. Figure Shown illustrates a `2-way, 4-shots` with `10 query` instances of the classification task, where '2-way' denotes two distinct classes (autistic and non-autistic) and '4-shots' signifies four instances per class for each episodic training.
 
 <img src="https://github.com/user-attachments/assets/0dd29aad-ad26-4f49-81d0-3c5fe75c053c" width="500">
 <br>
