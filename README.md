@@ -14,7 +14,7 @@ This repo contains the computational trials of the research paper titled: Few-Sh
 
 ## Introduction
 
-Autism Spectrum Disorder (ASD) is a developmental condition affecting communication, behavior, and social interactions, characterized by a range of symptoms and severity levels where early detection and intervention are crucial for effective support. Acquiring labeled data is challenging due to high costs, specialized knowledge, or sample scarcity, especially in 'rare conditions' like 'childhood ASD'. 
+Autism Spectrum Disorder (ASD) is a developmental condition affecting communication, behavior, and social interactions, characterized by a range of symptoms and severity levels where early detection and intervention are crucial for effective support. Acquiring labeled data is challenging due to high costs, specialized knowledge, or sample scarcity, especially in 'rare conditions' like `childhood ASD`. 
 We utilized few-shot learning (FSL) which is a machine-learning technique that trains the models by meta-learning with a minimal amount of labeled data, often just a few examples for each class.
 
 ## Features
