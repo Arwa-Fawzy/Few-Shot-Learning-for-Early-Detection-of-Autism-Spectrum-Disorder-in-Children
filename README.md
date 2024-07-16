@@ -48,11 +48,15 @@ Q = {(x_i, y_i)} for i = 0 to M resembling testing data, and 'episodes or tasks'
 
 
 ## Model
+![image](https://github.com/user-attachments/assets/a8413b6c-6818-4cbe-970b-cbae1bbab190)
 
 ## Results
+![arwa222 (1)](https://github.com/user-attachments/assets/c5d73583-dc23-4f11-ba44-3f54492da050)
+![matrix](https://github.com/user-attachments/assets/27b3b34c-04f3-41c0-84f5-13a38ee3023e)
 
 ## Future Plans
-
+Our future work will extend this approach to video ASD datasets. Given that autism is better diagnosed through long-term observation rather than static images, we aim to develop an FSL model capable of analyzing video data. This approach will utilize temporal patterns and behavioral cues observed over extended periods, which may enhance the reliability of early ASD diagnosis.
 ## Publication
+Submitted to The 6th Novel Intelligent and Leading Emerging Sciences Conference IEEE  
 
 
